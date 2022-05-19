@@ -3,11 +3,15 @@
 * {
     margin: 0px;
     padding: 0px;
-    background-color: #28282B;
-    color: #f3f3f3;
+    background-color: #E2DBBE;
+    color: #188FA7;
     font-family: 'Mukta', sans-serif;
 }
 
 body {
     padding: 10px;
+}
+
+h1 {
+    font-size: 4rem;
 }
