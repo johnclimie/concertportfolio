@@ -1,7 +1,9 @@
+import './style.css'
+
 function App() {
   return (
     <div className="App">
-      <h1>Test</h1>
+      <h1>My Concert Photo Portfolio</h1>
     </div>
   );
 }
