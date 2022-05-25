@@ -12,7 +12,34 @@
     display: flex;
 }
 
+#home-link {
+    text-decoration: none;
+    color: white;
+}
+
 #page-title {
     font-family: 'Koulen', sans-serif;
     font-size: 4rem;
+}
+
+#welcome {
+    display: flex;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 30px;
+    padding-top: 80px;
+}
+
+#selection {
+    width: 50%;
+    background-color: blueviolet;
+}
+
+#welcome-title {
+    font-family: 'Koulen', sans-serif;
+    font-size: 3rem;
 }
