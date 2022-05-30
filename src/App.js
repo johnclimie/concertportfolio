@@ -20,9 +20,9 @@ function App() {
             <h2>In fact, I have</h2>
 
             <ul>
-              <li>Been to 5 concerts, 1 Sunday Service and 1 festival</li>
-              <li>Seen 32 different artists</li>
-              <li>Visited 3 different venues</li>
+              <li>Been to 6 concerts, 1 Sunday Service and 1 festival</li>
+              <li>Seen 34 different artists</li>
+              <li>Visited 4 different venues</li>
               <li>Taken dozens of amazing photos</li>
             </ul>
 
@@ -34,13 +34,17 @@ function App() {
         
 
         <div id='selection'>
-          <h1>selection</h1>
+          {/* <h1>selection</h1> */}
 
           {/* CSS Grid will go here, two items for each row. I want each item to animate one at a time when
           page is loaded. Each item will be a square picture. When hovered, the item will have a darker shade,
           and the name of the artist will load, along with the date of the concert, and maybe the venue name*/}
 
-          
+          <div id="one">one</div>
+          <div id="one">one</div>
+          <div id="one">one</div>
+          <div id="one">one</div>
+
         </div>
       </section>
 
