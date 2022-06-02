@@ -74,6 +74,13 @@
 
 
 #one {
+    display: flex;
     background-color: aqua;
     aspect-ratio: 1;
+}
+
+#selection-img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
 }

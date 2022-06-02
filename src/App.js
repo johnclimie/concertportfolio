@@ -40,7 +40,11 @@ function App() {
           page is loaded. Each item will be a square picture. When hovered, the item will have a darker shade,
           and the name of the artist will load, along with the date of the concert, and maybe the venue name*/}
 
-          <div id="one">one</div>
+          <div id="one">
+            <img 
+            src="https://www.calliaweb.co.uk/wp-content/uploads/2015/10/600x600.jpg"
+             id='selection-img'></img>
+          </div>
           <div id="one">one</div>
           <div id="one">one</div>
           <div id="one">one</div>
