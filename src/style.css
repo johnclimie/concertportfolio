@@ -110,6 +110,11 @@
     font-size: 2rem;
 }
 
+.img-date {
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.5rem;
+}
+
 .img-info > * {
     transform: translateX(20px);
     transition: transform 0.25s;
