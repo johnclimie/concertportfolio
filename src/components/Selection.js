@@ -13,9 +13,9 @@ export default function Selection({ musicEvents }) {
               <div id="one">
               <img src={musicEvent.thumbnail} id='selection-img' alt={musicEvent.name}></img>
   
-              <div class='img-info'>
-                <div class='img-title'>{musicEvent.name}</div>
-                <p class='img-desc'>{musicEvent.venue}</p>
+              <div className='img-info'>
+                <div className='img-title'>{musicEvent.name}</div>
+                <p className='img-desc'>{musicEvent.venue}</p>
               </div>
             </div>
           ))}

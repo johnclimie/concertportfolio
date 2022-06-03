@@ -65,23 +65,22 @@
 
 #selection {
     width: 50%;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    /* gap: 10px; */
     grid-auto-rows: auto;
 }
 
 
 #one {
     display: flex;
-    background-color: aqua;
+    /* background-color: aqua; */
     position: relative;
     aspect-ratio: 1;
 }
 
 #selection-img {
-    height: 100%;
     width: 100%;
     display: block;
     object-fit: contain;
@@ -99,6 +98,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
     opacity: 0;
     transition: opacity 0.25s;
 }
