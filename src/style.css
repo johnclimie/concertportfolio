@@ -65,17 +65,14 @@
 
 #selection {
     width: 50%;
-    /* background-color: blueviolet; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* gap: 10px; */
     grid-auto-rows: auto;
 }
 
 
 #one {
     display: flex;
-    /* background-color: aqua; */
     position: relative;
     aspect-ratio: 1;
 }
