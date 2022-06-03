@@ -41,9 +41,12 @@ function App() {
           and the name of the artist will load, along with the date of the concert, and maybe the venue name*/}
 
           <div id="one">
-            <img 
-            src="https://www.calliaweb.co.uk/wp-content/uploads/2015/10/600x600.jpg"
-             id='selection-img'></img>
+            <img src="https://www.calliaweb.co.uk/wp-content/uploads/2015/10/600x600.jpg" id='selection-img' alt='Test'></img>
+
+            <div class='img-info'>
+              <div class='img-title'>Title</div>
+              <p class='img-desc'>Description</p>
+            </div>
           </div>
           <div id="one">one</div>
           <div id="one">one</div>

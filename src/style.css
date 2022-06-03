@@ -76,11 +76,52 @@
 #one {
     display: flex;
     background-color: aqua;
+    position: relative;
     aspect-ratio: 1;
 }
 
 #selection-img {
     height: 100%;
     width: 100%;
+    display: block;
     object-fit: contain;
+}
+
+.img-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.img-title {
+    font-family: 'Koulen', sans-serif;
+    font-size: 3rem;
+}
+
+.img-desc {
+    font-family: 'Mulish', sans-serif;
+    font-size: 2rem;
+}
+
+.img-info > * {
+    transform: translateX(20px);
+    transition: transform 0.25s;
+}
+
+.img-info:hover {
+    opacity: 1;
+}
+
+.img-info:hover > * {
+    transform: translateX(0);
 }
