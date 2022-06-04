@@ -127,3 +127,44 @@
 .img-info:hover > * {
     transform: translateX(0);
 }
+
+@media only screen and (max-width: 1300px) {
+    #welcome {
+        flex-direction: column;
+    }
+
+    #about {
+        width: 100%;
+    }
+
+    #selection {
+        width: 100%;
+    }
+
+    #welcome-content h2 {
+        max-width: 50ch;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #page-title {
+        font-size: 3rem;
+    }
+
+    #welcome-title {
+        font-size: 2rem;
+    }
+
+    #welcome-content h2 {
+        font-size: 1rem;
+    }
+
+    #welcome-content ul {
+        font-size: 1rem;
+    }
+
+    #about {
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+}
