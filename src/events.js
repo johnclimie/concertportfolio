@@ -31,7 +31,7 @@ const musicEvents = [
     },
     {
         name: 'Tyler, The Creator',
-        date: 'October 15th, 2022',
+        date: 'March 25th, 2022',
         venue: 'Gas South Arena',
         thumbnail: 'https://resources.tidal.com/images/9db5f3a2/b872/45d6/8dbb/2b7a078be19e/640x640.jpg',
     },
