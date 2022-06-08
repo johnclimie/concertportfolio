@@ -83,7 +83,7 @@
     object-fit: contain;
 }
 
-.img-info {
+.img-info-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -115,16 +115,16 @@
     font-size: 1.5rem;
 }
 
-.img-info > * {
+.img-info-overlay > * {
     transform: translateX(20px);
     transition: transform 0.25s;
 }
 
-.img-info:hover {
+.img-info-overlay:hover {
     opacity: 1;
 }
 
-.img-info:hover > * {
+.img-info-overlay:hover > * {
     transform: translateX(0);
 }
 

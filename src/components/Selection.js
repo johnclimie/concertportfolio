@@ -13,7 +13,7 @@ export default function Selection({ musicEvents }) {
               <div id="one">
               <img src={musicEvent.thumbnail} id='selection-img' alt={musicEvent.name}></img>
   
-              <div className='img-info'>
+              <div className='img-info-overlay'>
                 <div className='img-title'>{musicEvent.name}</div>
                 <p className='img-desc'>{musicEvent.venue}</p>
                 <p className='img-date'>{musicEvent.date}</p>
