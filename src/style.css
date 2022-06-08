@@ -100,6 +100,11 @@
     transition: opacity 0.25s;
 }
 
+.img-info-sub {
+    display: none;
+    text-align: center;
+}
+
 .img-title {
     font-family: 'Koulen', sans-serif;
     font-size: 3rem;
@@ -108,11 +113,13 @@
 .img-desc {
     font-family: 'Mulish', sans-serif;
     font-size: 2rem;
+    margin-bottom: 2%;
 }
 
 .img-date {
     font-family: 'Mulish', sans-serif;
     font-size: 1.5rem;
+    margin-bottom: 2%;
 }
 
 .img-info-overlay > * {
@@ -144,6 +151,30 @@
     #welcome-content h2 {
         max-width: 50ch;
     }
+
+    #one {
+        flex-direction: column;
+    }
+
+    .img-info-overlay {
+        display: none;
+    }
+
+    .img-info-sub {
+        display: block;
+    }
+
+    .img-title {
+        font-size: 2rem;
+    }
+
+    .img-desc {
+        font-size: 1.5rem;
+    }
+
+    .img-date {
+        font-size: 1rem;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -166,5 +197,17 @@
     #about {
         padding-top: 0px;
         padding-left: 0px;
+    }
+
+    #selection {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .img-title {
+        font-size: 1.5rem;
+    }
+
+    .img-desc {
+        font-size: 1rem;
     }
 }

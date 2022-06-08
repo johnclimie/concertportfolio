@@ -18,6 +18,12 @@ export default function Selection({ musicEvents }) {
                 <p className='img-desc'>{musicEvent.venue}</p>
                 <p className='img-date'>{musicEvent.date}</p>
               </div>
+
+              <div className='img-info-sub'>
+                <p className='img-title'>{musicEvent.name}</p>
+                <p className='img-desc'>{musicEvent.venue}</p>
+                <p className='img-date'>{musicEvent.date}</p>
+              </div>
             </div>
           ))}
         </div>
