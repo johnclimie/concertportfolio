@@ -67,8 +67,8 @@ function App() {
       <footer id='footer'>
         <h1>Created by John Climie</h1>
         <div id='footer-links'>
-          <a href='https://github.com/johnclimie'>GitHub</a>
-          <a href='https://www.linkedin.com/in/john-climie-a0856b21a/'>LinkedIn</a>
+          <a href='https://github.com/johnclimie' target='_blank' rel="noreferrer">GitHub</a>
+          <a href='https://www.linkedin.com/in/john-climie-a0856b21a/' target='_blank' rel="noreferrer">LinkedIn</a>
         </div>
       </footer>
     </div>
