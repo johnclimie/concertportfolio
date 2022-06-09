@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
+html,body {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
     overflow-x: hidden;
-}
+    }
 
 #header {
     background-color: black;
