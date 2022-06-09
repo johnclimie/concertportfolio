@@ -64,7 +64,13 @@ function App() {
         {/* </div> */}
       </section>
 
-      
+      <footer id='footer'>
+        <h1>Created by John Climie</h1>
+        <div id='footer-links'>
+          <a href='https://github.com/johnclimie'>GitHub</a>
+          <a href='https://www.linkedin.com/in/john-climie-a0856b21a/'>LinkedIn</a>
+        </div>
+      </footer>
     </div>
   );
 }
