@@ -37,31 +37,7 @@ function App() {
         </div>
         
         <Selection musicEvents={musicEvents}/>
-
         
-        {/* <div id='selection'> */}
-          {/* <h1>selection</h1> */}
-
-          {/* CSS Grid will go here, two items for each row. I want each item to animate one at a time when
-          page is loaded. Each item will be a square picture. When hovered, the item will have a darker shade,
-          and the name of the artist will load, along with the date of the concert, and maybe the venue name*/}
-
-          {/* <div id="one">
-            <img src="https://wallpaperaccess.com/full/2219339.jpg" id='selection-img' alt='Test'></img>
-
-            <div class='img-info'>
-              <div class='img-title'>Title</div>
-              <p class='img-desc'>Description</p>
-            </div>
-          </div>
-          <div id="one">one</div>
-          <div id="one">one</div>
-          <div id="one">one</div>
-          <div id="one">one</div>
-          <div id="one">one</div>
-          <div id="one">one</div> */}
-
-        {/* </div> */}
       </section>
 
       <footer id='footer'>
