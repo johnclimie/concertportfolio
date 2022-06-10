@@ -74,6 +74,10 @@ html,body {
     grid-auto-rows: auto;
 }
 
+#selection a {
+    text-decoration: none;
+}
+
 #selection-img {
     width: 100%;
     display: block;
@@ -132,6 +136,8 @@ html,body {
 .img-info-sub {
     display: none;
     text-align: center;
+    text-decoration: none;
+    color: black;
 }
 
 .img-title {
@@ -191,6 +197,13 @@ html,body {
 
     .img-info-sub {
         display: block;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .img-info-sub > * {
+        text-decoration: none;
+        color: black;
     }
 
     .img-title {
