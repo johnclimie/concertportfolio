@@ -10,7 +10,7 @@ export default function Selection({ musicEvents }) {
           and the name of the artist will load, along with the date of the concert, and maybe the venue name*/}
 
           {musicEvents.map((musicEvent) => (
-              <div id="one">
+              <div className="option">
               <img src={musicEvent.thumbnail} id='selection-img' alt={musicEvent.name}></img>
   
               <div className='img-info-overlay'>
