@@ -6,8 +6,15 @@ html,body {
     height: 100%;
     padding: 0px;
     margin: 0px;
+    min-height: 100vh;
     overflow-x: hidden;
-    }
+    position: relative;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+}
 
 #header {
     background-color: black;
@@ -91,6 +98,10 @@ html,body {
     color: white;
     margin-top: 2rem;
     text-align: center;
+    align-self: flex-end;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
 }
 
 #footer h1 {
