@@ -17,10 +17,10 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route index element={<Home />} />
+
+          
         </Routes>
       </BrowserRouter>
-
-      {/* <Home /> */}
 
       <footer id='footer'>
         <h1>Created by John Climie</h1>
