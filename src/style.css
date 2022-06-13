@@ -100,7 +100,7 @@ html,body {
     text-align: center;
     align-self: flex-end;
     width: 100%;
-    position: fixed;
+    position: relative;
     bottom: 0;
 }
 
