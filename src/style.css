@@ -181,6 +181,29 @@ html,body {
     transform: translateX(0);
 }
 
+
+/* For event page */
+
+#event-container {
+    display: flex;
+    flex-direction: row;
+    margin: 1%;
+}
+
+#event-info {
+    width: 50%;
+}
+
+#event-info h1 {
+    font-size: 3rem;
+    font-family: 'Koulen', sans-serif;
+}
+
+#event-info h3 {
+    font-size: 2rem;
+    font-family: 'Mulish', sans-serif; 
+    width: 35ch;
+}
 @media only screen and (max-width: 1300px) {
     #welcome {
         flex-direction: column;

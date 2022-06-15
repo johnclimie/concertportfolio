@@ -8,8 +8,8 @@ const EventPage = () => {
 
     console.log(currentEvent);
     return (
-        <div>
-            <div>
+        <div id='event-container'>
+            <div id='event-info'>
                 <h1>{currentEvent.name}</h1>
 
                 <h3>{currentEvent.date} | {currentEvent.venue}</h3>
