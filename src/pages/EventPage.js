@@ -24,7 +24,13 @@ const EventPage = () => {
                 ))}
                 </ul>
 
-                <h3>Suprise Guests: YFN Lucci</h3>
+                <h3>Suprise Guests:</h3>
+
+                <ul>
+                    {currentEvent.guests.map((guest) => (
+                        <li>{guest}</li>
+                    ))}
+                </ul>
             </div>
         </div>
     )
