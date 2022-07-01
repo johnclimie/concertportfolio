@@ -6,6 +6,8 @@ const EventPage = () => {
         return obj.name === '6lack';
     })
 
+    console.log(window.location.pathname);
+
     console.log(currentEvent);
     return (
         <div id='event-container'>
