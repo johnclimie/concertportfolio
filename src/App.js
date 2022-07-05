@@ -31,7 +31,8 @@ function App() {
           <Routes>
             <Route index element={<Home />} />
 
-            <Route path='test' element={<EventPage />} />
+            {/* <Route path='test' element={<EventPage />} /> */}
+            {/* {useRoutes(EventRoutes)} */}
           </Routes>
         </BrowserRouter>
       </body>
