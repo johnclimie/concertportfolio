@@ -1,22 +1,14 @@
-import { BrowserRouter, Routes } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import './style.css'
 
-// import Home from './pages/Home';
+import Home from './pages/Home';
 // import EventPage from './pages/EventPage';
 // import musicEvents from './events';
-import Router from './routes';
+// import Router from './routes';
 
 function App() {
 
-  // const EventRoutes = [];  
-
-  // musicEvents.map((event) => {
-  //   // console.log(event);
-  //   EventRoutes.push({ path: event.path, element: <EventPage />});
-  // })
-
-  // console.log(EventRoutes);
 
   return (
     <div className="App">
@@ -29,13 +21,9 @@ function App() {
         </nav>
 
         <BrowserRouter>
-          {/* <Routes> */}
-            {/* <Route index element={<Home />} /> */}
-
-            {/* <Route path='test' element={<EventPage />} /> */}
-            {/* {useRoutes(EventRoutes)} */}
-          {/* </Routes> */}
-            <Router />
+          <Routes>
+            <Route index element={<Home />} />
+          </Routes>
         </BrowserRouter>
       </body>
 
