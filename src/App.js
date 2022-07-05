@@ -1,11 +1,22 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, useRoutes } from 'react-router-dom';
 
 import './style.css'
 
 import Home from './pages/Home';
 import EventPage from './pages/EventPage';
+import musicEvents from './events';
 
 function App() {
+
+  const EventRoutes = [];  
+
+  musicEvents.map((event) => {
+    // console.log(event);
+    EventRoutes.push({ path: event.path, element: <EventPage />});
+  })
+
+  console.log(EventRoutes);
+
   return (
     <div className="App">
 
