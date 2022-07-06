@@ -3,12 +3,9 @@ import musicEvents from "../events"
 const EventPage = () => {
 
     const currentEvent = musicEvents.find(obj => {
-        return obj.name === '6lack';
+        return `/${obj.path}` === window.location.pathname;
     })
 
-    console.log(window.location.pathname);
-
-    console.log(currentEvent);
     return (
         <div id='event-container'>
             <div id='event-info'>
