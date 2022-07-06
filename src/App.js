@@ -3,9 +3,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './style.css'
 
 import Home from './pages/Home';
-// import EventPage from './pages/EventPage';
-// import musicEvents from './events';
-// import Router from './routes';
+import EventPage from './pages/EventPage';
+import musicEvents from './events';
 
 function App() {
 
@@ -23,6 +22,11 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route index element={<Home />} />
+
+            {musicEvents.map((musicEvent) => {
+              return <Route path={musicEvent.path} element={<EventPage />} />
+            })}
+
           </Routes>
         </BrowserRouter>
       </body>
