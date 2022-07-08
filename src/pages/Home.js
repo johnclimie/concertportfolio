@@ -3,6 +3,7 @@ import Selection from "../components/Selection";
 import musicEvents from "../events";
 
 const Home = () => {
+  // Returns home page
     return (
         <section id='welcome'>
         <div id='about'>

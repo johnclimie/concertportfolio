@@ -8,7 +8,7 @@ import musicEvents from './events';
 
 function App() {
 
-
+  // Returns Main application
   return (
     <div className="App">
 
@@ -19,10 +19,12 @@ function App() {
           </a>
         </nav>
 
+        {/* Sets up routes */}
         <BrowserRouter>
           <Routes>
             <Route index element={<Home />} />
 
+            {/* Maps over events from musicEvents object and creates a route based on each event */}
             {musicEvents.map((musicEvent) => {
               return <Route path={musicEvent.path} element={<EventPage />} />
             })}

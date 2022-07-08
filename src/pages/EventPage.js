@@ -2,6 +2,9 @@ import musicEvents from "../events"
 
 const EventPage = () => {
 
+    // Renders page based on pathname
+
+    // Creates currentEvent const by finding an existing event path and matching it with current path
     const currentEvent = musicEvents.find(obj => {
         return `/${obj.path}` === window.location.pathname;
     })
@@ -17,6 +20,7 @@ const EventPage = () => {
 
                 <h3>Opening Acts:</h3>
 
+                {/* Maps over openers for current event */}
                 <ul>
                 {currentEvent.openers.map((opener) => (
                     <li>{opener}</li>
@@ -25,6 +29,7 @@ const EventPage = () => {
 
                 <h3>Suprise Guests:</h3>
 
+                {/* Maps over guests for current Event */}
                 <ul>
                     {currentEvent.guests.map((guest) => (
                         <li>{guest}</li>
