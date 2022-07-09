@@ -16,7 +16,7 @@ const EventPage = () => {
 
                 <h3>{currentEvent.date} | {currentEvent.venue}</h3>
 
-                <h3>{currentEvent.description}</h3>
+                <h3 id='event-desc'>{currentEvent.description}</h3>
 
                 <h3>Opening Acts:</h3>
 

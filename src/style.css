@@ -191,7 +191,10 @@ html,body {
 }
 
 #event-info {
+    display: flex;
+    flex-direction: column;
     width: 50%;
+    background-color: salmon;
 }
 
 #event-info h1 {
@@ -202,13 +205,17 @@ html,body {
 #event-info h3 {
     font-size: 2rem;
     font-family: 'Mulish', sans-serif; 
-    width: 35ch;
+    /* width: 35ch; */
 }
 
 #event-info li {
     font-size: 2rem;
     font-family: 'Mulish', sans-serif;
     font-weight: bold;
+}
+
+#event-desc {
+    max-width: 35ch;
 }
 
 @media only screen and (max-width: 1300px) {
