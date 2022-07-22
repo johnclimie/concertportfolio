@@ -36,6 +36,10 @@ const EventPage = () => {
                     ))}
                 </ul>
             </div>
+
+            <div id='img-cycle'>
+                <h1>img cycle</h1>
+            </div>
         </div>
     )
 }

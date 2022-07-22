@@ -265,6 +265,14 @@ html,body {
     .img-date {
         font-size: 1rem;
     }
+
+    #event-container {
+        flex-direction: column;
+    }
+
+    #event-info {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 600px) {
