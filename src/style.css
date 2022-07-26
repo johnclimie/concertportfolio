@@ -301,6 +301,18 @@ html,body {
         grid-template-columns: repeat(1, 1fr);
     }
 
+    #event-info h1 {
+        font-size: 2rem;
+    }
+
+    #event-info h3 {
+        font-size: 1rem;
+    }
+
+    #event-info li {
+        font-size: 1rem;
+    }
+
     .img-title {
         font-size: 1.5rem;
     }
