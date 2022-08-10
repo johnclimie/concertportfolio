@@ -39,6 +39,11 @@ const EventPage = () => {
 
             <div id='img-cycle'>
                 <h1>img cycle</h1>
+                <div id='cycle'>
+                    {currentEvent.images.map((image) => (
+                        <img src={image} alt='Artist at concert' />
+                    ))}        
+                </div>
             </div>
         </div>
     )
