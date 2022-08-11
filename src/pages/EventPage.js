@@ -11,7 +11,16 @@ const EventPage = () => {
         return `/${obj.path}` === window.location.pathname;
     })
 
+    const [currentImg, setcurrentImg] = useState(0);
     const length = currentEvent.images.length; 
+
+    const nextImg = () => {
+        setcurrentImg(currentImg === length - 1 ? 0 : currentImg + 1);
+    }
+
+    const prevImg = () => {
+        setcurrentImg(currentImg  === 0 ? length - 1 : currentImg -1);
+    }
 
     return (
         <div id='event-container'>
@@ -43,8 +52,8 @@ const EventPage = () => {
 
             <div id='img-cycle'>
                 <div id='cycle'>
-                    <FaArrowRight id="right-arrow"/>
-                    <FaArrowLeft id="left-arrow"/>
+                    <FaArrowRight id="right-arrow" onClick={nextImg} />
+                    <FaArrowLeft id="left-arrow" onClick={prevImg} />
                     {currentEvent.images.map((image) => (
                         <img src={image} alt='Artist at concert' />
                     ))}        
