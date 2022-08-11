@@ -228,6 +228,7 @@ html,body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 100px;
 }
 
 #right-arrow {
@@ -250,6 +251,17 @@ html,body {
     z-index: 10;
     cursor: pointer;
     user-select: none;
+}
+
+.slide {
+    opacity: 0;
+    transition-duration: 1s ease;
+}
+
+.slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
 }
 
 @media only screen and (max-width: 1300px) {

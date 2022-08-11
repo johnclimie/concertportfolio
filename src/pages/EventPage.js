@@ -54,8 +54,13 @@ const EventPage = () => {
                 <div id='cycle'>
                     <FaArrowRight id="right-arrow" onClick={nextImg} />
                     <FaArrowLeft id="left-arrow" onClick={prevImg} />
-                    {currentEvent.images.map((image) => (
-                        <img src={image} alt='Artist at concert' />
+                    {currentEvent.images.map((image, index) => (
+                        <div className={index === currentImg ? 'slide active' : 'slide'} key={index}>
+                            {index === currentImg && (
+                                <img src={image} alt='Artist at concert' />
+                            )}
+                        </div>
+
                     ))}        
                 </div>
             </div>
