@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import musicEvents from "../events";
+import { FaArrowLeft, FaArrowRight } from 'react-icons/fa'
 
 const EventPage = () => {
 
@@ -41,8 +42,9 @@ const EventPage = () => {
             </div>
 
             <div id='img-cycle'>
-                <h1>img cycle</h1>
                 <div id='cycle'>
+                    <FaArrowRight id="right-arrow"/>
+                    <FaArrowLeft id="left-arrow"/>
                     {currentEvent.images.map((image) => (
                         <img src={image} alt='Artist at concert' />
                     ))}        
