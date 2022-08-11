@@ -220,15 +220,16 @@ html,body {
 
 #img-cycle {
     width: 50%;
+    display: flex;
+    justify-content: center;
 }
 
 #cycle {
     position: relative;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    width: 100%;
 }
 
 #right-arrow {
@@ -258,7 +259,12 @@ html,body {
     transition-duration: 1s ease;
 }
 
+.slide img {
+    width: 100%;
+}
+
 .slide.active {
+    display: flex;
     opacity: 1;
     transition-duration: 1s;
     transform: scale(1.08);
