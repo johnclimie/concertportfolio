@@ -233,9 +233,10 @@ html,body {
 }
 
 #right-arrow {
-    position: absolute;
+    /* position: absolute; */
     top: 50%;
-    right: 32px;
+    /* right: 32px; */
+    margin-left: 32px;
     font-size: 3rem;
     color: #000;
     z-index: 10;
@@ -244,9 +245,10 @@ html,body {
 }
 
 #left-arrow {
-    position: absolute;
+    /* position: absolute; */
     top: 50%;
-    left: 32px;
+    /* left: 32px; */
+    margin-right: 32px;
     font-size: 3rem;
     color: #000;
     z-index: 10;
@@ -257,6 +259,7 @@ html,body {
 .slide {
     opacity: 0;
     transition-duration: 1s ease;
+    /* width: 60%; */
 }
 
 .slide img {

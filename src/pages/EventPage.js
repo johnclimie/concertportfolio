@@ -52,8 +52,9 @@ const EventPage = () => {
 
             <div id='img-cycle'>
                 <div id='cycle'>
-                    <FaArrowRight id="right-arrow" onClick={nextImg} />
+                    {/* {/* <FaArrowRight id="right-arrow" onClick={nextImg} /> */}
                     <FaArrowLeft id="left-arrow" onClick={prevImg} />
+
                     {currentEvent.images.map((image, index) => (
                         <div className={index === currentImg ? 'slide active' : 'slide'} key={index}>
                             {index === currentImg && (
@@ -61,7 +62,9 @@ const EventPage = () => {
                             )}
                         </div>
 
-                    ))}        
+                    ))}     
+
+                    <FaArrowRight id="right-arrow" onClick={nextImg} />   
                 </div>
             </div>
         </div>
