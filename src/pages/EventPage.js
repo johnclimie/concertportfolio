@@ -1,4 +1,5 @@
-import musicEvents from "../events"
+import { useState } from 'react';
+import musicEvents from "../events";
 
 const EventPage = () => {
 
@@ -8,6 +9,8 @@ const EventPage = () => {
     const currentEvent = musicEvents.find(obj => {
         return `/${obj.path}` === window.location.pathname;
     })
+
+    const length = currentEvent.images.length; 
 
     return (
         <div id='event-container'>
