@@ -265,7 +265,7 @@ html,body {
 .slide img {
     max-width: 100%;
     min-width: 100%;
-
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .slide.active {
@@ -274,7 +274,8 @@ html,body {
     transition-duration: 1s;
     transform: scale(1.08);
     width: 60%;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    justify-content: center;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
 }
 
 
@@ -347,6 +348,21 @@ html,body {
         width: 100%;
         margin-top: 100px;
         margin-bottom: 100px;
+    }
+
+    .slide img {
+       max-width: none;
+        min-width: none;
+        width: 60%;
+    }
+
+    .slide.active {
+        display: flex;
+        opacity: 1;
+        transition-duration: 1s;
+        transform: scale(1.08);
+        width: 60%;
+
     }
 }
 
