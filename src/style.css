@@ -7,7 +7,7 @@ html,body {
     padding: 0px;
     margin: 0px;
     min-height: 100vh;
-    overflow-x: hidden;
+    overflow-x: initial !important;
     position: relative;
 }
 
@@ -265,6 +265,7 @@ html,body {
 .slide img {
     max-width: 100%;
     min-width: 100%;
+
 }
 
 .slide.active {
@@ -326,12 +327,26 @@ html,body {
         font-size: 1rem;
     }
 
+    .slide img {
+        max-height: 1500px;
+    }
+
     #event-container {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     #event-info {
         width: 100%;
+    }
+
+    #event-desc {
+        max-width: 70ch;
+    }
+
+    #img-cycle {
+        width: 100%;
+        margin-top: 100px;
+        margin-bottom: 100px;
     }
 }
 
