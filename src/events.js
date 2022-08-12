@@ -8,7 +8,7 @@ const musicEvents = [
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut condimentum velit nisi, non dignissim diam rutrum et. Sed vehicula erat a varius aliquet. Ut dignissim purus id posuere euismod. Sed et justo gravida, gravida mauris eget, vestibulum erat. In condimentum ligula vitae magna luctus, vitae porttitor magna consectetur. Praesent dolor quam, mollis eu lacus a, accumsan interdum felis. Fusce a lectus tincidunt, interdum ante et, consequat leo. Curabitur facilisis viverra rhoncus. Donec rutrum ex non nunc fringilla cursus. Morbi sit amet interdum metus, in suscipit enim. Etiam pretium felis nibh, eu placerat odio malesuada nec. Sed nisi est, elementum id justo ac, viverra aliquam libero. Maecenas diam dolor, rhoncus vel tellus eu, euismod lobortis enim. Integer tristique iaculis aliquam. Duis lacinia libero a faucibus aliquam.',
         openers: ['Sabrina Claudio'],
         guests: ['YFN Lucci'],
-        images: ['https://i1.sndcdn.com/artworks-89c619dc-0cfc-4779-ba5b-f6f35b37d864-0-t500x500.jpg', 'https://cdns-images.dzcdn.net/images/artist/4ce545645b5ae44ba451c10d9c720285/500x500.jpg', 'https://i1.sndcdn.com/avatars-R2ZZmTavzElxVUv1-ygUZFQ-t500x500.jpg']
+        images: ['https://lastfm.freetls.fastly.net/i/u/ar0/682ee7aa5482ace7beee030c50c81ff8', 'https://i1.sndcdn.com/artworks-89c619dc-0cfc-4779-ba5b-f6f35b37d864-0-t500x500.jpg', 'https://cdns-images.dzcdn.net/images/artist/4ce545645b5ae44ba451c10d9c720285/500x500.jpg', 'https://i1.sndcdn.com/avatars-R2ZZmTavzElxVUv1-ygUZFQ-t500x500.jpg', 'https://media1.giphy.com/media/nv5rlmTeT6gUECLhVv/giphy.gif?cid=ecf05e475dffbce1a5e5421b460c2955e7726fd77df077db&rid=giphy.gif&ct=g']
     },
     {
         name: 'Travis Scott',

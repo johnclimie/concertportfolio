@@ -236,7 +236,7 @@ html,body {
     /* position: absolute; */
     top: 50%;
     /* right: 32px; */
-    margin-left: 32px;
+    margin-left: 3%;
     font-size: 3rem;
     color: #000;
     z-index: 10;
@@ -248,7 +248,7 @@ html,body {
     /* position: absolute; */
     top: 50%;
     /* left: 32px; */
-    margin-right: 32px;
+    margin-right: 3%;
     font-size: 3rem;
     color: #000;
     z-index: 10;
@@ -263,7 +263,8 @@ html,body {
 }
 
 .slide img {
-    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
 }
 
 .slide.active {
@@ -271,7 +272,11 @@ html,body {
     opacity: 1;
     transition-duration: 1s;
     transform: scale(1.08);
+    width: 60%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+
+
 
 @media only screen and (max-width: 1300px) {
     #welcome {
