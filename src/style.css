@@ -262,7 +262,7 @@ html,body {
     /* width: 60%; */
 }
 
-.slide img {
+.slide-img {
     max-width: 100%;
     min-width: 100%;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -344,20 +344,16 @@ html,body {
         max-width: 70ch;
     }
 
-    #cycle {
-        height: 50rem;
-    }
 
     #img-cycle {
         width: 100%;
-        /* margin-top: 100px;
-        margin-bottom: 100px; */
+        margin-top: 100px;
+        margin-bottom: 100px;
     }
 
-    .slide img {
-       max-width: none;
+    .slide-img {
+        max-width: none;
         min-width: none;
-        width: 60%;
     }
 
     .slide.active {

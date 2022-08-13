@@ -58,7 +58,7 @@ const EventPage = () => {
                     {currentEvent.images.map((image, index) => (
                         <div className={index === currentImg ? 'slide active' : 'slide'} key={index}>
                             {index === currentImg && (
-                                <img src={image} alt='Artist at concert' />
+                                <img src={image} alt='Artist at concert' className='slide-img' />
                             )}
                         </div>
 
