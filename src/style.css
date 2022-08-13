@@ -344,10 +344,14 @@ html,body {
         max-width: 70ch;
     }
 
+    #cycle {
+        height: 50rem;
+    }
+
     #img-cycle {
         width: 100%;
-        margin-top: 100px;
-        margin-bottom: 100px;
+        /* margin-top: 100px;
+        margin-bottom: 100px; */
     }
 
     .slide img {
@@ -361,7 +365,7 @@ html,body {
         opacity: 1;
         transition-duration: 1s;
         transform: scale(1.08);
-        width: 60%;
+        max-width: 60%;
 
     }
 }
