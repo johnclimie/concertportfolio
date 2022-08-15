@@ -393,6 +393,14 @@ html,body {
         grid-template-columns: repeat(1, 1fr);
     }
 
+    #right-arrow {
+        font-size: 2rem;
+    }
+
+    #left-arrow {
+        font-size: 2rem;
+    }
+
     #event-info h1 {
         font-size: 2rem;
     }
@@ -421,5 +429,13 @@ html,body {
 @media only screen and (max-width: 400px) {
     #img-cycle {
         height: 20rem;
+    }
+
+    #right-arrow {
+        font-size: 1.5rem;
+    }
+
+    #left-arrow {
+        font-size: 1.5rem;
     }
 }
