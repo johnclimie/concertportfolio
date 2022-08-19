@@ -64,7 +64,7 @@ const EventPage = () => {
                         <div className={index === currentImg ? 'slide active' : 'slide'} key={index}>
                             {console.log(image)}
                             {index === currentImg && (
-                                <img src='../../public/images/IMG_0977.JPG' alt='Artist at concert' className='slide-img' />
+                                <img src={image} alt='Artist at concert' className='slide-img' />
                             )}
                         </div>
 
