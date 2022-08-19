@@ -2,6 +2,7 @@ import { useState } from 'react';
 import musicEvents from "../events";
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa'
 
+
 const EventPage = () => {
 
     // Renders page based on pathname
@@ -62,8 +63,9 @@ const EventPage = () => {
                     {/* Creates div with image for each image in array that is sourced from data */}
                     {currentEvent.images.map((image, index) => (
                         <div className={index === currentImg ? 'slide active' : 'slide'} key={index}>
+                            {console.log(image)}
                             {index === currentImg && (
-                                <img src={image} alt='Artist at concert' className='slide-img' />
+                                <img src={require(image)} alt='Artist at concert' className='slide-img' />
                             )}
                         </div>
 
