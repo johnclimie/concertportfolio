@@ -1,12 +1,9 @@
 import React from 'react';
 
+// Renders selection and creates element for each element
 export default function Selection({ musicEvents }) {
     return (
         <div id='selection'>
-
-          {/* CSS Grid will go here, two items for each row. I want each item to animate one at a time when
-          page is loaded. Each item will be a square picture. When hovered, the item will have a darker shade,
-          and the name of the artist will load, along with the date of the concert, and maybe the venue name*/}
 
           {/* Maps over each element and makes a tile for each item */}
           {musicEvents.map((musicEvent) => (

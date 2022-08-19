@@ -1,3 +1,5 @@
+// Creates data for application to render from
+
 const musicEvents = [
     {
         name: '6lack',

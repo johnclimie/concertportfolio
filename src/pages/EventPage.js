@@ -11,9 +11,11 @@ const EventPage = () => {
         return `/${obj.path}` === window.location.pathname;
     })
 
+    // Sets current image and sets length of images based on data
     const [currentImg, setcurrentImg] = useState(0);
     const length = currentEvent.images.length; 
 
+    // Creates function in order for image carousel to function
     const nextImg = () => {
         setcurrentImg(currentImg === length - 1 ? 0 : currentImg + 1);
     }
@@ -22,6 +24,7 @@ const EventPage = () => {
         setcurrentImg(currentImg  === 0 ? length - 1 : currentImg -1);
     }
 
+    // Returns page based on event that is matched in data
     return (
         <div id='event-container'>
             <div id='event-info'>
@@ -52,9 +55,11 @@ const EventPage = () => {
 
             <div id='img-cycle'>
                 <div id='cycle'>
-                    {/* {/* <FaArrowRight id="right-arrow" onClick={nextImg} /> */}
+
+                    {/* Calls for function when clicked */}
                     <FaArrowLeft id="left-arrow" onClick={prevImg} />
 
+                    {/* Creates div with image for each image in array that is sourced from data */}
                     {currentEvent.images.map((image, index) => (
                         <div className={index === currentImg ? 'slide active' : 'slide'} key={index}>
                             {index === currentImg && (
@@ -64,6 +69,7 @@ const EventPage = () => {
 
                     ))}     
 
+                    {/* Calls for function when clicked */}
                     <FaArrowRight id="right-arrow" onClick={nextImg} />   
                 </div>
             </div>
