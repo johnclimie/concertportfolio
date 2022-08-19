@@ -34,6 +34,8 @@ html,body {
     font-size: 4rem;
 }
 
+/* Styling for home page */
+
 #welcome {
     display: flex;
     margin-right: auto;
@@ -181,7 +183,6 @@ html,body {
     transform: translateX(0);
 }
 
-
 /* For event page */
 
 #event-container {
@@ -269,7 +270,7 @@ html,body {
     justify-content: center;
 }
 
-
+/* Mobile styling for max width 1300px */
 
 @media only screen and (max-width: 1300px) {
     #welcome {
@@ -355,6 +356,8 @@ html,body {
     }
 }
 
+/* Mobile styling for max width 600px */
+
 @media only screen and (max-width: 600px) {
     #page-title {
         font-size: 2rem;
@@ -413,6 +416,8 @@ html,body {
         font-size: 1rem;
     }
 }
+
+/* Mobile styling for max width 400px */
 
 @media only screen and (max-width: 400px) {
     #page-title {
