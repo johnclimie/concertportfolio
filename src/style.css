@@ -194,7 +194,6 @@ html,body {
     display: flex;
     flex-direction: column;
     width: 50%;
-    background-color: salmon;
 }
 
 #event-info h1 {
@@ -349,7 +348,7 @@ html,body {
         width: 100%;
         /* margin-top: 100px;
         margin-bottom: 100px; */
-        height: 70rem;
+        height: 50rem;
     }
 
     .slide-img {
@@ -369,7 +368,7 @@ html,body {
 
 @media only screen and (max-width: 600px) {
     #page-title {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     #welcome-title {
@@ -422,11 +421,15 @@ html,body {
     }
 
     #img-cycle {
-        height: 40rem;
+        height: 25rem;
     }
 }
 
 @media only screen and (max-width: 400px) {
+    #page-title {
+        font-size: 1.5rem;
+    }
+
     #img-cycle {
         height: 20rem;
     }
