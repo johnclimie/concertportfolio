@@ -11,7 +11,6 @@ function App() {
   // Returns Main application
   return (
     <div className="App">
-
       <body>
         <nav id='header'>
           <a href="/" id='home-link'>
@@ -26,7 +25,7 @@ function App() {
 
             {/* Maps over events from musicEvents object and creates a route based on each event */}
             {musicEvents.map((musicEvent) => {
-              return <Route path={musicEvent.path} element={<EventPage />} />
+              return <Route path={musicEvent.path} element={<EventPage />} key={Math.random()} />
             })}
 
           </Routes>

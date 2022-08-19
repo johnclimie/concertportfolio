@@ -10,7 +10,7 @@ export default function Selection({ musicEvents }) {
 
           {/* Maps over each element and makes a tile for each item */}
           {musicEvents.map((musicEvent) => (
-              <a href={'/' + musicEvent.path}>
+              <a href={'/' + musicEvent.path} key={Math.random()}>
                 <div className="option">
                   <img src={musicEvent.thumbnail} id='selection-img' alt={musicEvent.name}></img>
       

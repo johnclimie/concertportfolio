@@ -36,7 +36,7 @@ const EventPage = () => {
                 {/* Maps over openers for current event */}
                 <ul>
                 {currentEvent.openers.map((opener) => (
-                    <li>{opener}</li>
+                    <li key={Math.random()}>{opener}</li>
                 ))}
                 </ul>
 
@@ -45,7 +45,7 @@ const EventPage = () => {
                 {/* Maps over guests for current Event */}
                 <ul>
                     {currentEvent.guests.map((guest) => (
-                        <li>{guest}</li>
+                        <li key={Math.random()}>{guest}</li>
                     ))}
                 </ul>
             </div>
