@@ -5,12 +5,12 @@ const musicEvents = [
         name: '6lack',
         date: 'November 25th, 2017',
         venue: 'The Tabernacle',
-        thumbnail: 'https://images.complex.com/complex/image/upload/c_fill,dpr_auto,f_auto,fl_lossy,g_face,q_auto,w_1280/gcqlizpztkdckiz1zhms.jpg',
+        thumbnail: require('./images/6lack/6lackThumbnail.jpg'),
         path: '6lack',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut condimentum velit nisi, non dignissim diam rutrum et. Sed vehicula erat a varius aliquet. Ut dignissim purus id posuere euismod. Sed et justo gravida, gravida mauris eget, vestibulum erat. In condimentum ligula vitae magna luctus, vitae porttitor magna consectetur. Praesent dolor quam, mollis eu lacus a, accumsan interdum felis. Fusce a lectus tincidunt, interdum ante et, consequat leo. Curabitur facilisis viverra rhoncus. Donec rutrum ex non nunc fringilla cursus. Morbi sit amet interdum metus, in suscipit enim. Etiam pretium felis nibh, eu placerat odio malesuada nec. Sed nisi est, elementum id justo ac, viverra aliquam libero. Maecenas diam dolor, rhoncus vel tellus eu, euismod lobortis enim. Integer tristique iaculis aliquam. Duis lacinia libero a faucibus aliquam.',
         openers: ['Sabrina Claudio'],
         guests: ['YFN Lucci'],
-        images: [require('./images/6lack/IMG_0977.JPG'),]
+        images: [require('./images/6lack/6lack1.JPG'), require('./images/6lack/6lack2.jpg'), require('./images/6lack/6lack3.jpg'), require('./images/6lack/6lackGIF.gif'), require('./images/6lack/6lack4.jpg'), require('./images/6lack/6lack5.JPG'), require('./images/6lack/6lack6.jpg'), require('./images/6lack/6lack7.JPG'),]
     },
     {
         name: 'Travis Scott',
