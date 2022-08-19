@@ -11,7 +11,8 @@ function App() {
   // Returns Main application
   return (
     <div className="App">
-      <body>
+
+      <>
         <nav id='header'>
           <a href="/" id='home-link'>
             <h1 id='page-title'>Concert Portfolio</h1>
@@ -30,7 +31,7 @@ function App() {
 
           </Routes>
         </BrowserRouter>
-      </body>
+      </>
 
       <footer id='footer'>
         <h1>Created by John Climie</h1>
