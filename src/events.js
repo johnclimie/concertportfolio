@@ -16,11 +16,12 @@ const musicEvents = [
         name: 'Travis Scott',
         date: 'November 13th, 2018',
         venue: 'State Farm Arena',
-        thumbnail: 'http://exclaim.ca/images/travisscott.jpeg',
+        thumbnail: require('./images/travisscott1/travisscott1thumbnail.jpg'),
         path: 'travisscott1',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut condimentum velit nisi, non dignissim diam rutrum et. Sed vehicula erat a varius aliquet. Ut dignissim purus id posuere euismod. Sed et justo gravida, gravida mauris eget, vestibulum erat. In condimentum ligula vitae magna luctus, vitae porttitor magna consectetur. Praesent dolor quam, mollis eu lacus a, accumsan interdum felis. Fusce a lectus tincidunt, interdum ante et, consequat leo. Curabitur facilisis viverra rhoncus. Donec rutrum ex non nunc fringilla cursus. Morbi sit amet interdum metus, in suscipit enim. Etiam pretium felis nibh, eu placerat odio malesuada nec. Sed nisi est, elementum id justo ac, viverra aliquam libero. Maecenas diam dolor, rhoncus vel tellus eu, euismod lobortis enim. Integer tristique iaculis aliquam. Duis lacinia libero a faucibus aliquam.',
         openers: ['Sabrina Claudio'],
-        guests: ['YFN Lucci']
+        guests: ['YFN Lucci'],
+        images: [require('./images/travisscott1/travisscott1.jpg'), require('./images/travisscott1/travisscott2.jpg'), require('./images/travisscott1/travisscott3.jpg'), require('./images/travisscott1/travisscott4.jpg'), require('./images/travisscott1/travisscottgif1.gif'), require('./images/travisscott1/travisscott5.jpg'), require('./images/travisscott1/travisscott6.jpg'), require('./images/travisscott1/travisscott7.jpg'), require('./images/travisscott1/travisscottgif2.gif'), require('./images/travisscott1/travisscott8.jpg'), require('./images/travisscott1/travisscott9.jpg'), require('./images/travisscott1/travisscott10.jpg'),]
     },
     {
         name: 'Travis Scott',
