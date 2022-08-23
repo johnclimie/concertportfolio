@@ -82,11 +82,12 @@ const musicEvents = [
         name: 'Phoebe Bridgers',
         date: 'May 27th, 2022',
         venue: 'Cadence Bank Amphitheatre',
-        thumbnail: 'https://media.pitchfork.com/photos/5ee923f47bb7acb328d5683d/1:1/w_600/Punisher%20_Phoebe%20Bridgers.jpg',
+        thumbnail: require('./images/phoebebridgers/phoebethumbnail.jpg'),
         path: 'phoebebridgers',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut condimentum velit nisi, non dignissim diam rutrum et. Sed vehicula erat a varius aliquet. Ut dignissim purus id posuere euismod. Sed et justo gravida, gravida mauris eget, vestibulum erat. In condimentum ligula vitae magna luctus, vitae porttitor magna consectetur. Praesent dolor quam, mollis eu lacus a, accumsan interdum felis. Fusce a lectus tincidunt, interdum ante et, consequat leo. Curabitur facilisis viverra rhoncus. Donec rutrum ex non nunc fringilla cursus. Morbi sit amet interdum metus, in suscipit enim. Etiam pretium felis nibh, eu placerat odio malesuada nec. Sed nisi est, elementum id justo ac, viverra aliquam libero. Maecenas diam dolor, rhoncus vel tellus eu, euismod lobortis enim. Integer tristique iaculis aliquam. Duis lacinia libero a faucibus aliquam.',
         openers: ['Sabrina Claudio'],
-        guests: ['YFN Lucci']
+        guests: ['YFN Lucci'],
+        images: [require('./images/phoebebridgers/phoebe1.jpg'), require('./images/phoebebridgers/phoebe2.jpg'), require('./images/phoebebridgers/phoebegif1.gif'), require('./images/phoebebridgers/phoebe3.JPG')]
     },
     
 ]
