@@ -63,8 +63,8 @@ const musicEvents = [
         thumbnail: require('./images/tylerthecreator/tylerthumbnail.jpg'),
         path: 'tylerthecreator',
         description: `During the summer of 2021, Tyler dropped a great album that captured the vibe of a summer vacation. Going into this concert, I had no clue what to expect. I had no clue what his crowd would be like. When I think of Tyler fans, I think of introveted art students that don't cause much of a ruckus. I was proven completely wrong. I feel as if this concert itself topped Travis Scott in chaos. There were multiple moshpits, which truly caught me suprise with how energetic they were. The show's visuals were impressive, as the stage was setup as a massive house, with a 1930's Rolls Royce that came up from the stage. A boat also travelled down the crowd onto another stage. Tyler's openers did great too, as they all had their own unique stage stup, and put on a wonderful performance. I never thought that I would mosh to Kali Uchis but I'm not complaining. Tyler mentioned that there were a few special guests in attendence, which I found out to be Westside Gunn and DJ Drama. Tyler put on a great show.`,
-        openers: ['Sabrina Claudio'],
-        guests: ['YFN Lucci'],
+        openers: ['Teezo Touchdown, Vince Staples, Kali Uchis'],
+        guests: ['None'],
         images: [require('./images/tylerthecreator/tyler1.jpg'), require('./images/tylerthecreator/tylergif1.gif'), require('./images/tylerthecreator/tyler2.jpg'), require('./images/tylerthecreator/tylergif2.gif'), require('./images/tylerthecreator/tyler3.jpg'), require('./images/tylerthecreator/tylergif3.gif'), require('./images/tylerthecreator/tyler4.jpg'), require('./images/tylerthecreator/tylergif4.gif'), require('./images/tylerthecreator/tyler5.jpg'), require('./images/tylerthecreator/tylergif5.gif')]
     },
     {
@@ -73,9 +73,9 @@ const musicEvents = [
         venue: 'Shaky Knees Festival',
         thumbnail: require('./images/nin/ninthumbnail.JPG'),
         path: 'nineinchnails',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut condimentum velit nisi, non dignissim diam rutrum et. Sed vehicula erat a varius aliquet. Ut dignissim purus id posuere euismod. Sed et justo gravida, gravida mauris eget, vestibulum erat. In condimentum ligula vitae magna luctus, vitae porttitor magna consectetur. Praesent dolor quam, mollis eu lacus a, accumsan interdum felis. Fusce a lectus tincidunt, interdum ante et, consequat leo. Curabitur facilisis viverra rhoncus. Donec rutrum ex non nunc fringilla cursus. Morbi sit amet interdum metus, in suscipit enim. Etiam pretium felis nibh, eu placerat odio malesuada nec. Sed nisi est, elementum id justo ac, viverra aliquam libero. Maecenas diam dolor, rhoncus vel tellus eu, euismod lobortis enim. Integer tristique iaculis aliquam. Duis lacinia libero a faucibus aliquam.',
-        openers: ['Sabrina Claudio'],
-        guests: ['YFN Lucci'],
+        description: `Over the course of the pandemic, I really got into Nine Inch Nails. I found the experimental approach to their music was impressive, along with the content and expressions that were expressed throughout the entire record 'The Downward Spiral'. When I saw that Nine Inch Nails was coming to Atlanta at Shaky Knees Festival, I knew I had to go. I bought just a one day ticket, which is all I needed. I spent about 6 hours at the festival before they came on stage at about 9PM. About one hour before they're set, I managed to find 2 friends from high school in the same row as me, just 10 people away. Which I found amazing, considering that over 30,000 people were in the crowd. Nine Inch Nails hit the stage at 9, and started off with Mr. Self Destruct, which was perfect. They put on an amazing performance, and closed with the song Hurt. I'm hoping they one day go on tour again if they relase a new album. I believe that this was possibly the loudest show I have ever been to. I think it was worth the hearing damage.`,
+        openers: ['None'],
+        guests: ['None'],
         images: [require('./images/nin/nin1.jpg'), require('./images/nin/ningif1.gif'), require('./images/nin/nin2.jpg'), require('./images/nin/ningif2.gif'),  require('./images/nin/nin3.jpg'), require('./images/nin/ningif3.gif')]
     },
     {
@@ -84,7 +84,7 @@ const musicEvents = [
         venue: 'Cadence Bank Amphitheatre',
         thumbnail: require('./images/phoebebridgers/phoebethumbnail.jpg'),
         path: 'phoebebridgers',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut condimentum velit nisi, non dignissim diam rutrum et. Sed vehicula erat a varius aliquet. Ut dignissim purus id posuere euismod. Sed et justo gravida, gravida mauris eget, vestibulum erat. In condimentum ligula vitae magna luctus, vitae porttitor magna consectetur. Praesent dolor quam, mollis eu lacus a, accumsan interdum felis. Fusce a lectus tincidunt, interdum ante et, consequat leo. Curabitur facilisis viverra rhoncus. Donec rutrum ex non nunc fringilla cursus. Morbi sit amet interdum metus, in suscipit enim. Etiam pretium felis nibh, eu placerat odio malesuada nec. Sed nisi est, elementum id justo ac, viverra aliquam libero. Maecenas diam dolor, rhoncus vel tellus eu, euismod lobortis enim. Integer tristique iaculis aliquam. Duis lacinia libero a faucibus aliquam.',
+        description: `During the summer of 2021, I found myself getting into Phoebe Bridgers when I heard her on Kid Cudi's 'Man on the Moon III', which was a fantastic record. The first song by Phoebe that stuck out to me was Funeral. The songwriting felt so emotional, which help set a strong message and theme in her music. I quickly fell in love with her music, as I enjoy sad, downtempo music. I saw that she was coming to Buckhead, therefore I took the opportunity and bout tickets. This was the calmest concert I've ever been to. Her performance captured exactly what I found great about her music, emotional vulnerability. Her music is not afraid to express any sort of sad emotion. Her show ended with one of my favorite songs from her 'I Know the End', which is basically about the end of the world. This show left me excited to see what is next for her discography.`,
         openers: ['Sabrina Claudio'],
         guests: ['YFN Lucci'],
         images: [require('./images/phoebebridgers/phoebe1.jpg'), require('./images/phoebebridgers/phoebe2.jpg'), require('./images/phoebebridgers/phoebegif1.gif'), require('./images/phoebebridgers/phoebe3.JPG')]
