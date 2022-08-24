@@ -40,9 +40,9 @@ const musicEvents = [
         venue: 'New Birth Missionary Baptist Church',
         thumbnail: require('./images/kanyewest/kanyethumbnail.jpg'),
         path: 'kanyewest',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut condimentum velit nisi, non dignissim diam rutrum et. Sed vehicula erat a varius aliquet. Ut dignissim purus id posuere euismod. Sed et justo gravida, gravida mauris eget, vestibulum erat. In condimentum ligula vitae magna luctus, vitae porttitor magna consectetur. Praesent dolor quam, mollis eu lacus a, accumsan interdum felis. Fusce a lectus tincidunt, interdum ante et, consequat leo. Curabitur facilisis viverra rhoncus. Donec rutrum ex non nunc fringilla cursus. Morbi sit amet interdum metus, in suscipit enim. Etiam pretium felis nibh, eu placerat odio malesuada nec. Sed nisi est, elementum id justo ac, viverra aliquam libero. Maecenas diam dolor, rhoncus vel tellus eu, euismod lobortis enim. Integer tristique iaculis aliquam. Duis lacinia libero a faucibus aliquam.',
-        openers: ['Sabrina Claudio'],
-        guests: ['YFN Lucci'],
+        description: `This may not be a concert, however, with someone as indecisive as Ye, I figured I might not be able to see him again. Therefore, I had to attend this event. This was during Music Midtown weekend, and Travis Scott was performing again, however I wasn't able to go. My friend felt bad about it and sent me an Instagram post about Kanye hosting Sunday Service here. I saw this right when I woke up, and walked out the door 10 mins after. I got to the church and got a seat. I saw that other kids my age were there, in their Travis Scott t-shirts. After the sermon, Kanye came out and held his Sunday Service. I managed to get a good spot. I stood about 3 feet from T.I. along with 2 Chainz. Jermaine Dupree was also there, along with Elijah Connor, which is apparently the younger cousin of late musician Prince, who you would recognize from that one GIF with Sean Combs.`,
+        openers: ['The World Famous Tony Williams'],
+        guests: ['T.I. & Tiny', '2 Chainz', 'Jermaine Dupree', 'Elijah Connor'],
         images: [require('./images/kanyewest/kanye1.jpg'), require('./images/kanyewest/kanye2.jpg'), require('./images/kanyewest/kanyegif1.gif'), require('./images/kanyewest/kanye3.jpg'),]
     },
     {
