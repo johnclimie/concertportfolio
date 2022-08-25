@@ -15,21 +15,16 @@ function App() {
                  <h1 id='page-title'>Concert Portfolio</h1> 
               </div>
             </Link>
-            {/* <a href="/" id='home-link'>
-                <h1 id='page-title'>Concert Portfolio</h1>
-            </a> */}
             </nav>
 
-            {/* Sets up routes */}
-            {/* <Router> */}
-              <Routes>
-                <Route exact path='/' element={<Home />} />
-                {/* Maps over events from musicEvents object and creates a route based on each event */}
-                {musicEvents.map((musicEvent) => {
-                return <Route exact path={`/${musicEvent.path}`} element={<EventPage name={`${musicEvent.path}`}/>} key={Math.random()} />
-                })}
-              </Routes>
-            {/* </Router> */}
+
+            <Routes>
+              <Route exact path='/' element={<Home />} />
+              {/* Maps over events from musicEvents object and creates a route based on each event */}
+              {musicEvents.map((musicEvent) => {
+              return <Route exact path={`/${musicEvent.path}`} element={<EventPage name={`${musicEvent.path}`}/>} key={Math.random()} />
+              })}
+            </Routes>
         </>
 
         <footer id='footer'>
