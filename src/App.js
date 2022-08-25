@@ -18,7 +18,7 @@ function App() {
             {/* Sets up routes */}
             <BrowserRouter>
               <Routes>
-                <Route path='/' element={<Home />} />
+                <Route index element={<Home />} />
                 {/* Maps over events from musicEvents object and creates a route based on each event */}
                 {musicEvents.map((musicEvent) => {
                 return <Route path={musicEvent.path} element={<EventPage />} key={Math.random()} />
