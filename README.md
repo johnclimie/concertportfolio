@@ -18,4 +18,4 @@ Each event has it's own page, displaying the date, venue, description, opening a
 
 This website has provided me great practice with react by creating elements that are created by mapping arrays of objects. This project also helped me develop my skills in CSS, including animations and CSS Grid.
 
-You can view the my website here
+You can view the my website [here](https://johnclimie.github.io/concertportfolio/).
