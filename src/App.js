@@ -10,7 +10,7 @@ function App() {
     <div className="App">
         <>
             <nav id='header'>
-            <a href="/" id='home-link'>
+            <a href="/conertportfolio" id='home-link'>
                 <h1 id='page-title'>Concert Portfolio</h1>
             </a>
             </nav>
