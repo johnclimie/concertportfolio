@@ -2,14 +2,19 @@ import { useState } from 'react';
 import musicEvents from "../events";
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa'
 
-const EventPage = () => {
+const EventPage = (props) => {
 
     // Renders page based on pathname
 
+    console.log(props.name);
     // Creates currentEvent const by finding an existing event path and matching it with current path
     const currentEvent = musicEvents.find(obj => {
-        return `/${obj.path}` === window.location.pathname;
+        // return `/#/${obj.path}` === window.location.pathname;
+        return obj.path === props.name
     })
+
+    console.log(currentEvent);
+
 
     // Sets current image and sets length of images based on data
     const [currentImg, setcurrentImg] = useState(0);

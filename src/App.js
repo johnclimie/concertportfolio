@@ -1,4 +1,4 @@
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route, Link } from 'react-router-dom';
 import './style.css'
 import Home from './pages/Home';
 import EventPage from './pages/EventPage';
@@ -10,21 +10,26 @@ function App() {
     <div className="App">
         <>
             <nav id='header'>
-            <a href="/" id='home-link'>
+            <Link to='/' style={{ textDecoration: 'none'}}>
+              <div id='home-link'>
+                 <h1 id='page-title'>Concert Portfolio</h1> 
+              </div>
+            </Link>
+            {/* <a href="/" id='home-link'>
                 <h1 id='page-title'>Concert Portfolio</h1>
-            </a>
+            </a> */}
             </nav>
 
             {/* Sets up routes */}
-            <Router>
+            {/* <Router> */}
               <Routes>
-                <Route index element={<Home />} />
+                <Route exact path='/' element={<Home />} />
                 {/* Maps over events from musicEvents object and creates a route based on each event */}
                 {musicEvents.map((musicEvent) => {
-                return <Route exact path={musicEvent.path} element={<EventPage />} key={Math.random()} />
+                return <Route exact path={`/${musicEvent.path}`} element={<EventPage name={`${musicEvent.path}`}/>} key={Math.random()} />
                 })}
               </Routes>
-            </Router>
+            {/* </Router> */}
         </>
 
         <footer id='footer'>
