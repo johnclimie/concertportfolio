@@ -256,10 +256,11 @@ html,body {
 }
 
 .slide-img {
-    max-width: 90%;
-    max-height: 100%;
+    max-width: 80%;
+    max-height: 90%;
     width: auto;
     height: auto;
+    object-fit: cover;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
@@ -270,7 +271,8 @@ html,body {
     transform: scale(1.08);
     justify-content: center;
     width: 80%;
-    max-width: 90%;
+
+    max-height: 90%;
     
 }
 
@@ -343,7 +345,9 @@ html,body {
     }
 
     .slide-img {
-
+        /* max-width: 80%;
+        height: auto;
+        width: auto; */
     }
 
     .slide.active {
@@ -351,6 +355,7 @@ html,body {
         opacity: 1;
         transition-duration: 1s;
         transform: scale(1.08);
+        width: none;
     }
 }
 
