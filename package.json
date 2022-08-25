@@ -1,7 +1,7 @@
 {
   "name": "concertportfolio",
   "version": "0.1.0",
-  "homepage":"https://johnclimie.github.io/concert-portfolio",
+  "homepage":"https://johnclimie.github.io/concertportfolio",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
