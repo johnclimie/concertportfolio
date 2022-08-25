@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/concert-portfolio/static/css/main.a7790880.css",
-    "main.js": "/concert-portfolio/static/js/main.21f85a7f.js",
+    "main.js": "/concert-portfolio/static/js/main.52e9b7f1.js",
     "static/media/tylergif2.gif": "/concert-portfolio/static/media/tylergif2.4f25be703d9169278fb6.gif",
     "static/media/ningif3.gif": "/concert-portfolio/static/media/ningif3.e1c2866e51a79c8f02ae.gif",
     "static/media/tylergif3.gif": "/concert-portfolio/static/media/tylergif3.100917ce98a740adbfcc.gif",
@@ -95,10 +95,10 @@
     "static/media/travisscott5.JPG": "/concert-portfolio/static/media/travisscott5.37f486d91d7f107878f1.JPG",
     "index.html": "/concert-portfolio/index.html",
     "main.a7790880.css.map": "/concert-portfolio/static/css/main.a7790880.css.map",
-    "main.21f85a7f.js.map": "/concert-portfolio/static/js/main.21f85a7f.js.map"
+    "main.52e9b7f1.js.map": "/concert-portfolio/static/js/main.52e9b7f1.js.map"
   },
   "entrypoints": [
     "static/css/main.a7790880.css",
-    "static/js/main.21f85a7f.js"
+    "static/js/main.52e9b7f1.js"
   ]
 }
