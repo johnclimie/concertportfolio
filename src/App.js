@@ -16,7 +16,7 @@ function App() {
             </nav>
 
             {/* Sets up routes */}
-            <BrowserRouter basename={process.env.PUBLIC_URL}>
+            <BrowserRouter>
             <Routes>
                 <Route index element={<Home />} />
                 {/* Maps over events from musicEvents object and creates a route based on each event */}
