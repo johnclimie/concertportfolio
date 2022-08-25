@@ -344,12 +344,6 @@ html,body {
         font-size: 1rem;
     }
 
-    .slide-img {
-        /* max-width: 80%;
-        height: auto;
-        width: auto; */
-    }
-
     .slide.active {
         display: flex;
         opacity: 1;
@@ -407,9 +401,6 @@ html,body {
         font-size: 1rem;
     }
 
-    #img-cycle {
-    }
-
     .img-title {
         font-size: 1.5rem;
     }
@@ -426,21 +417,11 @@ html,body {
         font-size: 1.5rem;
     }
 
-    #img-cycle {
-
-    }
-
     #right-arrow {
         font-size: 1.5rem;
     }
 
     #left-arrow {
         font-size: 1.5rem;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    #img-cycle {
-
     }
 }
