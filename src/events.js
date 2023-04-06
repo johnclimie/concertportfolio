@@ -137,12 +137,12 @@ const musicEvents = [
         name: 'JPEGMAFIA',
         date: 'October 12th, 2022',
         venue: 'The Masquerade',
-        thumbnail: require('./images/kendricklamar/kendrickthumbnail.jpg'),
+        thumbnail: require('./images/jpegmafia/jpegmafiathumbnail.jpg'),
         path: 'jpegmafia',
         description: `After 5 long years, Kendrick Lamar finally dropped his long awaited album. When he announced his tour, two of my friends and I paid resell prices for floor seats. This concert was breathtaking. Kendrick performed for nearly 2 and a half hours, which is the longest I've ever seen anyone perform. His performance reflected the main theme of his album, self-reflection. A therapist narrated the entire show, as if Kendrick was in therapy himself. He played songs from Good Kid Maad City all the way up to Mr. Morale. His cousin, Baby Keem, opened for him, and later came out on stage for their hit song Family Ties. Kendrick's show had many different props and stage setups. Dolls, Pianos, Floating Panels, Plastic quarantine cubes that rise up into the air and are held up by mirrors. This show had it all. It was a great performance, coming from one who is known as the best artist of my generation. Not to mention, the dancers for the stage had great choreography. I'm excited to see Kendrick again one day sometime in the near future of 2032!`,
-        openers: ['Strick', '070 Shake'],
-        guests: ['Chip the Ripper'],
-        images: [require('./images/kendricklamar/kendrick1.jpg'), require('./images/kendricklamar/kendrick2.jpg'), require('./images/kendricklamar/kendrick3.jpg'), require('./images/kendricklamar/kendrick4.jpg'), require('./images/kendricklamar/kendrickgif1.gif'), require('./images/kendricklamar/kendrick5.jpg'), require('./images/kendricklamar/kendrick6.jpg'), require('./images/kendricklamar/kendrick7.jpg'), require('./images/kendricklamar/kendrick8.jpg'), require('./images/kendricklamar/kendrickgif2.gif')]
+        openers: ['The Difference Machine'],
+        guests: ['None'],
+        images: [require('./images/jpegmafia/jpegmafia1.jpg'), require('./images/jpegmafia/jpegmafiagif1.gif'), require('./images/jpegmafia/jpegmafiathumbnail.jpg'), require('./images/jpegmafia/jpegmafiagif2.gif'), require('./images/jpegmafia/jpegmafia2.jpg'),require('./images/jpegmafia/jpegmafiagif3.gif')]
     }, 
     {
         name: 'Pusha T',
@@ -151,8 +151,8 @@ const musicEvents = [
         thumbnail: require('./images/kendricklamar/kendrickthumbnail.jpg'),
         path: 'kidcudi',
         description: `After 5 long years, Kendrick Lamar finally dropped his long awaited album. When he announced his tour, two of my friends and I paid resell prices for floor seats. This concert was breathtaking. Kendrick performed for nearly 2 and a half hours, which is the longest I've ever seen anyone perform. His performance reflected the main theme of his album, self-reflection. A therapist narrated the entire show, as if Kendrick was in therapy himself. He played songs from Good Kid Maad City all the way up to Mr. Morale. His cousin, Baby Keem, opened for him, and later came out on stage for their hit song Family Ties. Kendrick's show had many different props and stage setups. Dolls, Pianos, Floating Panels, Plastic quarantine cubes that rise up into the air and are held up by mirrors. This show had it all. It was a great performance, coming from one who is known as the best artist of my generation. Not to mention, the dancers for the stage had great choreography. I'm excited to see Kendrick again one day sometime in the near future of 2032!`,
-        openers: ['Strick', '070 Shake'],
-        guests: ['Chip the Ripper'],
+        openers: ['IDK'],
+        guests: ['None'],
         images: [require('./images/kendricklamar/kendrick1.jpg'), require('./images/kendricklamar/kendrick2.jpg'), require('./images/kendricklamar/kendrick3.jpg'), require('./images/kendricklamar/kendrick4.jpg'), require('./images/kendricklamar/kendrickgif1.gif'), require('./images/kendricklamar/kendrick5.jpg'), require('./images/kendricklamar/kendrick6.jpg'), require('./images/kendricklamar/kendrick7.jpg'), require('./images/kendricklamar/kendrick8.jpg'), require('./images/kendricklamar/kendrickgif2.gif')]
     },
     {
