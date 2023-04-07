@@ -167,7 +167,7 @@ const musicEvents = [
         images: [require('./images/kendricklamar/kendrick1.jpg'), require('./images/kendricklamar/kendrick2.jpg'), require('./images/kendricklamar/kendrick3.jpg'), require('./images/kendricklamar/kendrick4.jpg'), require('./images/kendricklamar/kendrickgif1.gif'), require('./images/kendricklamar/kendrick5.jpg'), require('./images/kendricklamar/kendrick6.jpg'), require('./images/kendricklamar/kendrick7.jpg'), require('./images/kendricklamar/kendrick8.jpg'), require('./images/kendricklamar/kendrickgif2.gif')]
     },
     {
-        name: 'JID & Smino',
+        name: 'JID & Smino', 
         date: 'February 19th, 2023', 
         venue: 'Coca-Cola Roxy',
         thumbnail: require('./images/kendricklamar/kendrickthumbnail.jpg'),
