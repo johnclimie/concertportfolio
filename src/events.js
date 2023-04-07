@@ -34,17 +34,6 @@ const musicEvents = [
         guests: ['Lil Yachty', '2 Chainz', 'Rick Ross', 'Young Thug', 'Future'],
         images: [require('./images/travisscott2/travisscott1.jpg'), require('./images/travisscott2/travisscott2.JPG'), require('./images/travisscott2/travisscott3.jpg'), require('./images/travisscott2/travisscottgif1.gif'), require('./images/travisscott2/travisscott4.jpg'), require('./images/travisscott2/travisscott5.JPG'), require('./images/travisscott2/travisscott6.jpg'), require('./images/travisscott2/travisscottgif2.gif'), require('./images/travisscott2/travisscott7.jpg'), require('./images/travisscott2/travisscott8.JPG'), require('./images/travisscott2/travisscott9.jpg'), require('./images/travisscott2/travisscottgif3.gif'),]
     },
-    // {
-    //     name: 'Kanye West',
-    //     date: 'September 15th, 2019',
-    //     venue: 'New Birth Missionary Baptist Church',
-    //     thumbnail: require('./images/kanyewest/kanyethumbnail.jpg'),
-    //     path: 'kanyewest',
-    //     description: `This may not be a concert, however, with someone as indecisive as Ye, I figured I might not be able to see him again. Therefore, I had to attend this event. This was during Music Midtown weekend, and Travis Scott was performing again, however I wasn't able to go. My friend felt bad about it and sent me an Instagram post about Kanye hosting Sunday Service here. I saw this right when I woke up, and walked out the door 10 mins after. I got to the church and got a seat. I saw that other kids my age were there, in their Travis Scott t-shirts. After the sermon, Kanye came out and held his Sunday Service. I managed to get a good spot. I stood about 3 feet from T.I. along with 2 Chainz. Jermaine Dupree was also there, along with Elijah Connor, who is apparently the younger cousin of late musician Prince, who you would recognize from that one GIF with Sean Combs.`,
-    //     openers: ['The World Famous Tony Williams'],
-    //     guests: ['T.I. & Tiny', '2 Chainz', 'Jermaine Dupree', 'Elijah Connor'],
-    //     images: [require('./images/kanyewest/kanye1.jpg'), require('./images/kanyewest/kanye2.jpg'), require('./images/kanyewest/kanyegif1.gif'), require('./images/kanyewest/kanye3.jpg'),]
-    // },
     {
         name: 'James Blake',
         date: 'October 15th, 2021',
