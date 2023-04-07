@@ -166,7 +166,6 @@ const musicEvents = [
         guests: ['Lil Yachty'],
         images: [require('./images/jidsmino/jidsmino1.jpg'), require('./images/jidsmino/jidsminogif1.gif'), require('./images/jidsmino/jidsmino2.jpg'), require('./images/jidsmino/jidsmino3.jpg'), require('./images/jidsmino/jidsmino4.jpg'), require('./images/jidsmino/jidsminogif2.gif'), require('./images/jidsmino/jidsmino5.jpg'), require('./images/jidsmino/jidsminogif3.gif'), require('./images/jidsmino/jidsmino6.jpg'), require('./images/jidsmino/jidsminogif4.gif')]
     }
-    
 ]
 
 export default musicEvents;
