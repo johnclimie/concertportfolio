@@ -15,13 +15,13 @@ const Home = () => {
             <h2>In fact, I have</h2>
 
             <ul>
-              <li>Been to 9 concerts, 1 Sunday Service and 1 festival</li>
-              <li>Seen 42 different artists</li>
-              <li>Visited 7 different venues</li>
+              <li>Been to 14 concerts and 1 festival</li>
+              <li>Seen 53 different artists</li>
+              <li>Visited 8 different venues</li>
               <li>Taken dozens of amazing photos and videos</li>
             </ul>
 
-            <h2>Therefore, I have created this website, which can help showcase the moments I've captured during these musical events.</h2>
+            <h2>As a result, I have created this website, which can help showcase the moments I've captured during these musical events.</h2>
 
             <h2>Here, you can select a concert I've been to, and view the several different photos I've taken during the event.</h2>
           </div>
