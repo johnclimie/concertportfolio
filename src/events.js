@@ -165,6 +165,17 @@ const musicEvents = [
         openers: ['SwaVay'],
         guests: ['Lil Yachty'],
         images: [require('./images/jidsmino/jidsmino1.jpg'), require('./images/jidsmino/jidsminogif1.gif'), require('./images/jidsmino/jidsmino2.jpg'), require('./images/jidsmino/jidsmino3.jpg'), require('./images/jidsmino/jidsmino4.jpg'), require('./images/jidsmino/jidsminogif2.gif'), require('./images/jidsmino/jidsmino5.jpg'), require('./images/jidsmino/jidsminogif3.gif'), require('./images/jidsmino/jidsmino6.jpg'), require('./images/jidsmino/jidsminogif4.gif')]
+    },
+    {
+        name: 'MAVI', 
+        date: 'February 19th, 2023', 
+        venue: 'Coca-Cola Roxy',
+        thumbnail: require('./images/jidsmino/jidsminothumbnail.jpg'),
+        path: 'jidsmino',
+        description: `Early in 2023, I took the opportunity to see JID and Smino. I am glad I took this opportunity as they both did a great job at performing. SwaVay opened for them, and did great as an opener. This is my second time seeing him, as I already saw him come out as a surprise guest at James Blake’s show. His performance even had a few funny moments. This was my first time seeing Smino, and he did a great job. It was refreshing to hear something new. When JID came out, the crowd was quite excited, as he opened his show with his 2017 song “Never.” It was great hearing JID perform with his unique flows and creative lyrics. Lil Yachty was brought out as a guest and performed his hit song “Poland.” Olu from Earthgang, an Atlanta duo, was also brought out for their songs “Down Bad” and “Can’t Punk Me.” This was quite a memorable night, especially with JID closing the night with his song “Stick”, which is made for mosh pits.`,
+        openers: ['SwaVay'],
+        guests: ['Lil Yachty'],
+        images: [require('./images/jidsmino/jidsmino1.jpg'), require('./images/jidsmino/jidsminogif1.gif'), require('./images/jidsmino/jidsmino2.jpg'), require('./images/jidsmino/jidsmino3.jpg'), require('./images/jidsmino/jidsmino4.jpg'), require('./images/jidsmino/jidsminogif2.gif'), require('./images/jidsmino/jidsmino5.jpg'), require('./images/jidsmino/jidsminogif3.gif'), require('./images/jidsmino/jidsmino6.jpg'), require('./images/jidsmino/jidsminogif4.gif')]
     }
 ]
 
